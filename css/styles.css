@@ -103,10 +103,10 @@ html {
   display: block;
   padding: 32px 0;
   color: var(--primary-text-color);
-
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .current::after {
 content: "";
 position: absolute;
@@ -132,9 +132,6 @@ border-radius: 2px;
 
 .header-container {
   display: flex;
-  /*width: 1600px;
-  height: 80px; 
-  justify-items: space-between;*/
   align-items: center;
 }
 
@@ -142,8 +139,6 @@ border-radius: 2px;
   display: flex;
   align-items: center;
 }
-
-
 
 .header-connect {
   display: flex;
@@ -255,9 +250,7 @@ ul {
 }
 
 
-
 /*----------HERO--------*/
-
 
 
 .hero {
@@ -274,6 +267,7 @@ ul {
   background-position: center;
   background-size: cover;
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -287,6 +281,7 @@ ul {
   width: 696px;
   margin-bottom: 30px;
 }
+
 .button {
   color: var(--primary-white);
   background-color: var(--accent-color);
@@ -297,12 +292,12 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.06em;
   border: none;
-
   padding: 10px 32px;
   border-radius: 4px;
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-   color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .button:hover,.button:focus {
@@ -311,7 +306,7 @@ ul {
 }
 
 .about {
-  padding: 94px 0;
+padding: 94px 0;
 }
 
 
@@ -321,7 +316,6 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--primary-text-color);
 }
 
@@ -329,19 +323,18 @@ ul {
   margin-bottom: 10px;
 }
 
-
 .ourteam-items {
   display: flex;
   gap: 30px;
-
 }
 
 .portfolio-text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
-  /* margin-bottom: ; */
+
 }
+
 /* ------WHAT WE DO------*/
 .whatwedo {
   display: flex;
@@ -402,21 +395,6 @@ ul {
 
 }
 
-/* 
-.whatwedo-link :hover,
-.whatwedo-link :focus {
-  
-  color: var(--accent-color);
-}
-
-.whatwedo-item :hover{
-background-color: var(--accent-color);
-color: var(--accent-color);
-}
-.whatwedo-item :focus{
-fill: var(--accent-color);
-} */
-
 .ourteam-wrap {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -474,7 +452,7 @@ fill: var(--accent-color);
 .team-member {
   background-color: var(--primary-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   
 }
@@ -600,8 +578,6 @@ fill: var(--accent-color);
   margin-bottom: 20px;
   display: inline-block;
 }
-.phone-icon {
-}
 
 .footer-title {
   font-weight: 700;
@@ -709,11 +685,13 @@ fill: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: var(--accent-color);
 }
+  
 .btn-white {
   display: flex;
   gap: 8px;
   justify-content: center;
 }
+
 .btn-white li button {
   border-radius: 4px;
   padding: 6px 22px;
@@ -915,7 +893,7 @@ height: 16px;
 }
 .agreement-link{
   color: var(--accent-color);
- 
+  margin-left: 5px;
 }
 .no-scroll{
   overflow: hidden;
@@ -950,7 +928,7 @@ border: 1px solid var(--accent-color);
 
 /*------MODAL---BUTTON---*/
 .btn-modal-send{
-  /* margin-top: 5px; */
+  
   background-color: var(--accent-color);
   color: var(--primary-white);
   width: 200px;
@@ -1015,11 +993,11 @@ top: 50%;
 transform: translateY(-50%);
 }
 
-
 .newsletter{
   display: flex;
-  margin-left:auto;
+  margin-left: auto;
   align-items: flex-end;
+  
 }
 
 .btn-modal-send{
